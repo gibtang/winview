@@ -4,7 +4,11 @@
 
 **A Windows Desktop Clone of Mac Preview App**
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)![Test Coverage](https://img.shields.io/badge/coverage-97%25-brightgreen)![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue)![Electron](https://img.shields.io/badge/Electron-40+-9cf)![License](https://img.shields.io/badge/license-MIT-green)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/gibtang/winview/actions)
+[![Test Coverage](https://img.shields.io/badge/coverage-97%25-brightgreen)](https://github.com/gibtang/winview)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue)](https://www.typescriptlang.org/)
+[![Electron](https://img.shields.io/badge/Electron-40+-9cf)](https://www.electronjs.org/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 </div>
 
@@ -462,6 +466,3 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 [⭐ Star us on GitHub](https://github.com/gibtang/winview) • [🐛 Report Issues](https://github.com/gibtang/winview/issues)
 
 </div>
-#   w i n v i e w  
- #   w i n v i e w  
- 
