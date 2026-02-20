@@ -177,6 +177,25 @@ npm run build
 npm start
 ```
 
+### Running the Application
+
+#### Development Mode
+```bash
+# Start with auto-rebuild and debugging enabled
+npm run dev
+```
+
+#### Production Mode
+```bash
+# Build and start the app
+npm start
+```
+
+The application window will open automatically. You can then:
+- **Open files**: Use Ctrl+O or drag and drop PDF/image files
+- **Navigate**: Use arrow keys, mouse, or toolbar buttons
+- **Zoom**: Use Ctrl++ / Ctrl+- or toolbar zoom controls
+
 ### Install from Release (Coming Soon)
 
 ```bash
