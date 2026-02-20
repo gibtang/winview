@@ -24,9 +24,6 @@
 - 📝 **Annotation Tools** - Pen, highlighter, shapes, text, signatures, and more
 - 🔍 **Advanced Search** - Full-text search with highlighting and navigation
 - 📤 **Batch Processing** - Convert, resize, rotate, filter, watermark multiple files at once
-- ☁️ **Cloud Integration** - OneDrive, Google Drive, Dropbox sync support
-- ✏️ **Form Filling** - Fill out PDF forms with text, checkboxes, and signatures
-- 🔒 **Security** - Document encryption, password protection, secure file handling
 - 🎨 **Image Editing** - Crop, rotate, adjust colors, apply filters and effects
 - 📊 **OCR** - Extract text from images with multi-language support
 - 🤖 **Automation** - CLI commands, batch scripts, workflow automation
@@ -35,7 +32,7 @@
 
 ## ✨ Features
 
-WinView includes **370+ features** across 41 feature levels:
+WinView includes **354+ features** across 38 feature levels:
 
 ### Core Viewing
 1. Single and multi-page document viewing
@@ -81,102 +78,77 @@ WinView includes **370+ features** across 41 feature levels:
 33. Export with custom settings
 34. Progress tracking for large batches
 
-### Form Filling
-35. Auto-detect form fields
-36. Text input fields
-37. Checkboxes and radio buttons
-38. Dropdown selections
-39. Digital signatures
-40. Form validation
-41. Save and load form data
-42. Import/export FDF data
-
 ### OCR & Text Recognition
-43. Extract text from images and PDFs
-44. Multi-language support (30+ languages)
-45. Auto language detection
-46. Confidence scoring
-47. Text search in OCR results
-48. Export as text, JSON, or PDF
-
-### Document Security
-49. Password protect PDFs
-50. Remove/change passwords
-51. Set permissions (print, copy, modify)
-52. Owner password protection
-53. Encryption options
+35. Extract text from images and PDFs
+36. Multi-language support (30+ languages)
+37. Auto language detection
+38. Confidence scoring
+39. Text search in OCR results
+40. Export as text, JSON, or PDF
 
 ### Page Manipulation
-54. Insert, delete, and reorder pages
-55. Extract pages
-56. Rotate pages
-57. Merge multiple PDFs
-58. Split PDF into single pages
-59. Page cropping
-
-### Cloud Storage Integration
-60. **OneDrive** - Sync and access files
-61. **Google Drive** - Cloud backup and sharing
-62. **Dropbox** - File synchronization
-63. Cloud storage picker
-64. Sync preferences and status
-65. Version history support
+41. Insert, delete, and reorder pages
+42. Extract pages
+43. Rotate pages
+44. Merge multiple PDFs
+45. Split PDF into single pages
+46. Page cropping
 
 ### Advanced Features
-66. **Tabs** - Multiple files in tabs
-67. **Split View** - Side-by-side document comparison
-68. **Bookmarks** - Save and navigate to locations
-69. **Notes & Audio** - Voice annotations and notes
-70. **Slideshow** - Image slideshow with transitions and music
-71. **Smart Albums** - Recently viewed, favorites, custom collections
-72. **Quick Actions** - Toolbar with customizable actions
-73. **Mouse/Touch Gestures** - Right-click gestures, pinch zoom, two-finger scroll
+47. **Tabs** - Multiple files in tabs
+48. **Split View** - Side-by-side document comparison
+49. **Bookmarks** - Save and navigate to locations
+50. **Notes & Audio** - Voice annotations and notes
+51. **Slideshow** - Image slideshow with transitions and music
+52. **Smart Albums** - Recently viewed, favorites, custom collections
+53. **Quick Actions** - Toolbar with customizable actions
+54. **Mouse/Touch Gestures** - Right-click gestures, pinch zoom, two-finger scroll
 
 ### Windows Integration
-74. **Taskbar** - Jump lists, thumbnail toolbar, progress indicator, badges
-75. **Sharing** - Windows share dialog, email attachment, nearby sharing
-76. **File Associations** - Default viewer for PDF and images
-77. **Context Menus** - Right-click file actions
-78. **Drag & Drop** - Open files by dragging
+55. **Taskbar** - Jump lists, thumbnail toolbar, progress indicator, badges
+56. **Sharing** - Windows share dialog, email attachment, nearby sharing
+57. **File Associations** - Default viewer for PDF and images
+58. **Context Menus** - Right-click file actions
+59. **Drag & Drop** - Open files by dragging
 
 ### Pen & Stylus Support
-79. Pressure sensitivity (0-1 range)
-80. Tilt support for brush angle
-81. Palm rejection for hand placement
-82. Pen calibration
-83. Custom pressure curves
-84. Button customization
-85. Latency reduction
+60. Pressure sensitivity (0-1 range)
+61. Tilt support for brush angle
+62. Palm rejection for hand placement
+63. Pen calibration
+64. Custom pressure curves
+65. Button customization
+66. Latency reduction
 
 ### Camera Integration
-86. Webcam photo capture
-87. Document scanning with edge detection
-88. Auto-import from camera
-89. Multi-camera support
-90. Flash/torch control
-91. Video recording
+67. Webcam photo capture
+68. Document scanning with edge detection
+69. Auto-import from camera
+70. Multi-camera support
+71. Flash/torch control
+72. Video recording
 
 ### Workflow Automation
-92. **CLI Commands** - Command-line interface
-93. **Batch Scripts** - Automated processing workflows
-94. **Folder Actions** - Auto-process on file changes
-95. **Scheduled Tasks** - Automated exports and backups
-96. **Custom Workflows** - Create reusable automation
-97. **Workflow Templates** - Save and share automation
+73. **CLI Commands** - Command-line interface
+74. **Batch Scripts** - Automated processing workflows
+75. **Folder Actions** - Auto-process on file changes
+76. **Scheduled Tasks** - Automated exports and backups
+77. **Custom Workflows** - Create reusable automation
+78. **Workflow Templates** - Save and share automation
 
 ### Additional Format Support
-98. **HEIC** - Apple High Efficiency Image Format
-99. **WebP** - Google WebP format
-100. **ICO** - Windows icon files
-101. **RAW** - Camera RAW format support
+79. **HEIC** - Apple High Efficiency Image Format
+80. **WebP** - Google WebP format
+81. **ICO** - Windows icon files
+82. **RAW** - Camera RAW format support
 
 ### Accessibility
-102. Keyboard navigation
-103. Screen reader support
-104. High contrast mode
-105. ARIA labels
-106. Focus management
-107. Text-to-speech
+83. Keyboard navigation
+84. Screen reader support
+85. High contrast mode
+86. ARIA labels
+87. Focus management
+88. Text-to-speech
 
 ---
 
@@ -292,7 +264,6 @@ winview/
 │   ├── editing/                # Editing operations
 │   ├── batch/                  # Batch operations
 │   ├── ocr/                    # OCR functionality
-│   ├── cloud/                  # Cloud integration
 │   ├── automation/             # Workflow automation
 │   ├── sharing/                # File sharing
 │   ├── main.ts                 # Application entry
@@ -371,7 +342,7 @@ npm run test:coverage
 
 ## 📖 Documentation
 
-- **[FEATURE_LIST.md](FEATURE_LIST.md)** - Complete feature checklist (370 features)
+- **[FEATURE_LIST.md](FEATURE_LIST.md)** - Complete feature checklist (354 features)
 - **[IMPLEMENTATION_SUMMARY.md](IMPLEMENTATION_SUMMARY.md)** - Implementation progress and statistics
 - **[CLAUDE.md](CLAUDE.md)** - Project guidelines and instructions
 
@@ -446,7 +417,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - ✅ Annotation tools
 - ✅ Editing and adjustments
 - ✅ Batch operations
-- ✅ Cloud integration
 - ✅ Workflow automation
 
 ### Future Enhancements
